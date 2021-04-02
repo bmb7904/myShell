@@ -1,0 +1,10 @@
+#include "stdio.h"
+#include "string.h"
+#include <sys/types.h> // pid_t
+#include <sys/wait.h>  // wait
+#include <unistd.h>    // fork, execVP
+#include <stdlib.h>    // exit
+#include <malloc.h>    // malloc and realloc
+#include <fcntl.h>
+#include <errno.h>     // errno set upon functions being called
+      9      38     300

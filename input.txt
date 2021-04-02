@@ -1,0 +1,6 @@
+ls -l 
+ls -l | wc
+ls -S -l -s 
+ps -el
+ls -l | wc > brettFile.txt
+
